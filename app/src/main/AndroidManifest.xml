@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name=".MainActivityPro"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_pro_launcher"
+            android:roundIcon="@mipmap/app_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour1"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour1_pro_launcher"
+            android:roundIcon="@mipmap/app_hour1_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour2"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour2_pro_launcher"
+            android:roundIcon="@mipmap/app_hour2_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour3"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour3_pro_launcher"
+            android:roundIcon="@mipmap/app_hour3_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour4"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour4_pro_launcher"
+            android:roundIcon="@mipmap/app_hour4_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour5"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour5_pro_launcher"
+            android:roundIcon="@mipmap/app_hour5_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour6"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour6_pro_launcher"
+            android:roundIcon="@mipmap/app_hour6_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour7"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour7_pro_launcher"
+            android:roundIcon="@mipmap/app_hour7_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour8"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour8_pro_launcher"
+            android:roundIcon="@mipmap/app_hour8_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour9"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour9_pro_launcher"
+            android:roundIcon="@mipmap/app_hour9_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour10"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour10_pro_launcher"
+            android:roundIcon="@mipmap/app_hour10_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour11"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour11_pro_launcher"
+            android:roundIcon="@mipmap/app_hour11_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
+            android:name=".MainActivityHour12"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/app_hour12_pro_launcher"
+            android:roundIcon="@mipmap/app_hour12_pro_launcher_round"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+</manifest>
